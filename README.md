@@ -34,7 +34,7 @@ Once at least a first draft of available teams has been decided, we will update 
 ## Day-Of
 The hackathon will take place in the virtual events platform [Remo.co](https://remo.co).  The main "virtual floor" is a set of tables that participants can move freely between as they have discussions.  We intend that each team will have a dedicated table, and any participants can move between teams to collaborate or ask questions.  It is also easy to have ad-hoc small discussions by just having a few people pop over to an unoccupied table.  The "virtual floor" for this hackathon will look like this:
 
-![Remo floor](./docs/img/remo_floor.png)
+![Remo floor](./docs/img/remo_floor.jpg)
 
 **Each team will elect a "speaker" who will be in charge of handling communicating the teams progress during the hackathon and presenting their part of the final demo.  A team may have more than one person speak at the final demo, but one person should be in charge of communication of this sort.
 
