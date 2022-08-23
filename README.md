@@ -36,7 +36,17 @@ The hackathon will take place in the virtual events platform [Remo.co](https://r
 
 ![Remo floor](./docs/img/remo_floor.jpg)
 
-**Each team will elect a "speaker" who will be in charge of handling communicating the teams progress during the hackathon and presenting their part of the final demo.  A team may have more than one person speak at the final demo, but one person should be in charge of communication of this sort.
+**Each team will elect a "speaker" who will be in charge of handling communicating the teams progress during the hackathon and presenting their part of the final demo.  A team may have more than one person speak at the final demo, but one person should be in charge of communication of this sort.**
+
+## Schedule
+You can find the schedule at the Event Hub in Swoogo as well as all the links to the video conferencing platform(s): https://farmfoundation.swoogo.com/soilhealthtech/sign-in?rId=1858626
+
+The most important times:
+**Tue Aug 23 @ 9:00 am Central**: Hackathon Kick-Off
+**Tue Aug 23 @ 11:30 am Central**: Demo planning - _make sure you are here if you want to include your work in the final demo!_
+**Wed Aug 24 @ 11:35 am Central**: Aaron will check-in with all teams to finalize demo and who is speaking.
+**Wed Aug 24 @ 12:35 pm Central**: Present Hackathon Results at main conference
+**Wed Aug 24 @ 1:10 pm Central**: Hackathon is done!!
 
 ## Final Demo
 -------------
