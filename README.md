@@ -51,6 +51,11 @@ The goal of the final demo is demonstrating interoperability between tools regar
 -----------------------
 We have provided several examples of soils data, housed on github (and importable via npm in javascript) in the `examples/` repo under the 'https://github.com/oats-center/modus/' monorepo.
 
+```bash
+git clone git@github.com:oats-center/modus.git
+cd modus/examples/examples
+```
+
 List of example types: https://github.com/oats-center/modus/tree/main/examples/examples
 
 In general, each example folder contains one or more "source data" sheets in XML, CSV, or XLSX form, and then the `@modusjs/cli` command-line client was run on the source data to produce Modus JSON-formatted json files.  During the hackathon, we hope to add an exporter from the json files to a standardized CSV/xlsx structure.  Use whichever versions fit your situation.
