@@ -49,7 +49,32 @@ The goal of the final demo is demonstrating interoperability between tools regar
 
 # Access to Soils Data
 -----------------------
-We hope to have API access to all the soil samples we have collected prior to this event for participants to use.  Defining this API, however, can and likely will be part of the ongoing work during the hackathon.  We will therefore provide instructions on how to access an initial simple API structure to retreive soil samples, but may add to that structure during the hackathon.
+We have provided several examples of soils data, housed on github (and importable via npm in javascript) in the `examples/` repo under the 'https://github.com/oats-center/modus/' monorepo.
+
+List of example types: https://github.com/oats-center/modus/tree/main/examples/examples
+
+In general, each example folder contains one or more "source data" sheets in XML, CSV, or XLSX form, and then the `@modusjs/cli` command-line client was run on the source data to produce Modus JSON-formatted json files.  During the hackathon, we hope to add an exporter from the json files to a standardized CSV/xlsx structure.  Use whichever versions fit your situation.
+
+https://github.com/oats-center/modus/tree/main/examples/examples/fixing-soil-health-2022
+----------
+Thank to the Skidmore College team for collecting several hundred soil sample cores.  They collected cores from particular locations and sent soil from the same sample to multiple labs in order to compare the Total Carbon measurements across labs.  This lab data has been anonymized and provided here.  In addition to Total Carbon, some of the cores also were sent for a soil moisture measurement as well.  Both types of data are included in the lab results.
+
+https://github.com/oats-center/modus/tree/main/examples/examples/tomkat-historic
+----------
+Thanks to Point Blue Conservation Science (https://pointblue.org) and TomKat Ranch (https://tomkatranch.org/) for providing several years of historic soil sample data!  The `tomkat_source_data.xlsx` file here contains many sheets with historic data for the same locations.  Also, there are CSV files here representing the lab results structure reported by Ward labs.  Both are convertable using the `@modusjs/cli` command-line client.
+
+We have run the client on all the source data and produced all the `.json` Modus JSON files included in this folder.  Please use whichever version fits your situation.
+
+https://github.com/oats-center/modus/tree/main/examples/examples/enyart-east50-a_l_labs
+----------
+This folder is a single soil sample from Ault Farms, Inc on the "Enyart East 50" field, sent to A&L Labs Great Lakes.  It includes:
+- result.pdf: a PDF report that typically is sent to the farmer, 
+- lab-modus.xml: a Modus XML version created by the lab
+- hand-modus.xml: a hand-created Modus XML version derived solely from the PDF file, 
+- hand-modus.json: a hand-created Modus JSON derived from the hand-created XML file.
+
+These two XML file are the only original Modus XML examples we have at the moment, so please use those if you would like to demonstrate supporting Modus XML.  If you are looking to understand the JSON structure of Modus, a great place to start would be looking at the PDF and looking at the `hand-modus.json` file side-by-side to see how they match up.
+
 
 
 # Technical pre-work
